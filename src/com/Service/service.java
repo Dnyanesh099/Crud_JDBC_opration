@@ -47,6 +47,7 @@ public class service
 	}
 
 //----------------------------------------------------------------------------------------------
+	
 	public static void UpdateData() {
 		Scanner sc = new Scanner(System.in);
 
@@ -110,14 +111,8 @@ public class service
 			e.printStackTrace();
 		}
 	}
-
-//---------------------------------------------------------------------------------------
-
-	public static void CollableStatement() {
-
-	}
-
-	//------------------------------------------------------------------------------------
+//------------------------------------------------------------------------------------
+	
 	public static void GetData() {
 		Connection con = connection.getConnection();
 		String sql = "SELECT * FROM employee";
@@ -142,6 +137,7 @@ public class service
 		}
 	}
 //-----------------------------------------------------------------------------------------------
+	
 	public static void FetchData_Byname() {
 		
 		Scanner sc= new Scanner(System.in);
